@@ -2,6 +2,8 @@
 
 This is a React-based frontend UI built for the **UnloadIn Assignment**. The project features a clean **Login page** and a dynamic **Order Management system ** with recent activities and statuses.
 
+Flow: Login → Order Management System (Dashboard, Orders, Listings, Admin) → Logout
+
 ---
 
 ## Tech Stack
