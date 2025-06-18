@@ -6,7 +6,7 @@ Flow: Login → Order Management System (Dashboard, Orders, Listings, Admin) →
 
 ## Demo Video
 
-Watch the complete UI flow [here](https://drive.google.com/file/d/1ygc8LbAVTigRC5rlooi2_J78yty5zLoG/view?usp=sharing).
+https://drive.google.com/file/d/1ygc8LbAVTigRC5rlooi2_J78yty5zLoG/view?usp=sharing
 
 
 ---
