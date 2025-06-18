@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# UnloadIn Frontend UI – Login & Orders Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based frontend UI built for the **UnloadIn Assignment**. The project features a clean **Login page** and a dynamic **Order Management system ** with recent activities and statuses.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- **React.js**
+- **CSS (Scoped manually via `/styles/Orders.css`)**
+- **Google Fonts – [Kanit](https://fonts.google.com/specimen/Kanit)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Folder Structure
 
-### `npm test`
+src/
+├── pages/
+│ ├── Login.jsx # Login screen
+│ └── Orders.jsx # Orders dashboard
+├── styles/
+│ └── Orders.css # Styling for the Orders UI
+├── App.jsx # Main routing/logic component
+├── index.js # Entry point
+├── setupTests.js # Default from Create React App
+public/
+README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Pages Overview
+Login Page
 
-### `npm run build`
+- Simple UI for user login (frontend-only).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Orders Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Displays a table of orders with stats and recent activity list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- All order statuses are styled using black and white only.
 
-### `npm run eject`
+- Includes pagination, search bar, and visually structured components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📌 Notes
+Files like Sidebar.jsx, App.css, or reportWebVitals.js are not created or used.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Font and icon styles are minimal and performance-optimized.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author
+Developed by Disha D for UnloadIn Assignment – June 2025.
