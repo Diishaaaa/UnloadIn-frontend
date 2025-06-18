@@ -17,8 +17,9 @@ Flow: Login → Order Management System (Dashboard, Orders, Listings, Admin) →
 ## Folder Structure
 
 src/
-├── pages/
-│ ├── Login.jsx # Login screen
+
+├── pages/ 
+│ ├── Login.jsx # Login screen 
 │ └── Orders.jsx # Orders dashboard
 ├── styles/
 │ └── Orders.css # Styling for the Orders UI
